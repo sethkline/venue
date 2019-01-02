@@ -5,8 +5,7 @@ import Slide from 'react-reveal/Slide';
 
     state = {
 
-        deadline: 'Jan, 16, 2019',
-        days: '0',
+        deadline: 'May, 18, 2019', 
         hours: '0',
         minutes: '0',
         seconds: '0',
@@ -45,7 +44,7 @@ import Slide from 'react-reveal/Slide';
         >
       <div className="countdown_wrapper">
             <div className="countdown_top">
-                Event starts in
+                Recital starts in
             </div>
             <div className="countdown_bottom">
             <div className="countdown_item">

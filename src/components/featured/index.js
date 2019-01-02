@@ -10,7 +10,7 @@ import TimeUntil from './TimeUntil';
 
       <div className="artist_name">
             <div className="wrapper">
-             Ariana Grande
+             The Four Seasons
       </div>
 
       </div>

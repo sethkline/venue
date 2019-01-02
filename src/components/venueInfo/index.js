@@ -22,7 +22,7 @@ const VenueInfo = () => {
                                 }}
                             ></div>
                             <div className="vn_title">Event Date & Time</div>
-                            <div className="vn_desc">7 August 2017 @10.00 pm</div>
+                            <div className="vn_desc">18 May 2018 @10.30AM & 2PM</div>
                     </div>
                 </div>
             </div>
@@ -43,8 +43,8 @@ const VenueInfo = () => {
                                 background: `url(${icon_location})`
                             }}
                         ></div>
-                        <div className="vn_title">Event Location</div>
-                        <div className="vn_desc">345 Speer Street Oakland, CA 9835</div>
+                        <div className="vn_title">Recital Location</div>
+                        <div className="vn_desc">Mechanicsburg Middle School</div>
                 </div>
             </div>
         </div>

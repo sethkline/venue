@@ -26,19 +26,19 @@ const SideDrawer = (props) => {
         >
             <List component="nav">
                 <ListItem button onClick={()=> scrollToElement('featured')}>
-                    Event starts in
+                    Recital Starts In
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('venue-info')}>
-                    Venue Info
+                    Info
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('highlights')}>
-                    Highlights
+                    Performance Agreement
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('pricing')}>
-                    Pricing
+                    Program Ads
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('location')}>

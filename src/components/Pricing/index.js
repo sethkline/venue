@@ -6,18 +6,18 @@ class Pricing extends Component {
 
     state = {
 
-        prices: [100, 150, 250],
-        positions:['Balcony', 'Medium', 'Star'],
+        prices: [10, 40, 60],
+        positions:['Typed Message', 'Half Page Ad', 'Full Page Ad'],
         desc: [ 
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam corporis. Dignissimos voluptatem blanditiis provident dolor consequuntur. Quam quibusdam veritatis deleniti, adipisci velit voluptatum aliquid aliquam reiciendis molestias recusandae itaque!',
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam corporis. Dignissimos voluptatem blanditiis provident dolor consequuntur. Quam quibusdam veritatis deleniti, adipisci velit voluptatum aliquid aliquam reiciendis molestias recusandae itaque!',
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam corporis. Dignissimos voluptatem blanditiis provident dolor consequuntur. Quam quibusdam veritatis deleniti, adipisci velit voluptatum aliquid aliquam reiciendis molestias recusandae itaque!'
+            'four sentences maximum',
+            '5.5"x 4.25" (at least 300 dpi)',
+            '5.5"x 8.5" (at least 300 dpi)'
 
         ],
         linkto:[
-            'http://sales/balcony',
-            'http://sales/medium',
-            'http://sales/star',],
+            './recital-info/program-ad',
+            './recital-info/program-ad',
+            './recital-info/program-ad',],
         delay: [500, 0, 500]
     }
 
@@ -40,7 +40,7 @@ class Pricing extends Component {
                 <div className="pricing_buttons">
                 <MyButton 
                     text="Purchase"
-                    bck="#ffa800"
+                    bck="#a7223a"
                     color="#fff"
                     link={this.state.linkto[i]}
                 /></div>
@@ -56,7 +56,7 @@ class Pricing extends Component {
         return (
             <div className="bck_black">
             <div className="center_wrapper pricing_section">
-                <h2>Pricing</h2>
+                <h2>Recital Program Ads</h2>
 
                 <div className="pricing_wrapper">
                 {this.showBoxes()}
