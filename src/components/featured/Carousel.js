@@ -15,9 +15,9 @@ import slide_three from '../../resources/images/slide_three.jpg'
     return (
       <div
       className='carousel_wrapper'
-      style={{
-        height: `${window.innerHeight}px`,  
-        overflow:'hidden'}}
+    //   style={{
+    //     height: `${window.innerHeight}px`,  
+    //     overflow:'hidden'}}
 
       >
       <Slider
