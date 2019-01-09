@@ -1,11 +1,13 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import PlusImage from '../../resources/images/icons/plus-button.png';
+import TicketIcon from '../../resources/images/icons/ticket.png';
+import PDFIcon from '../../resources/images/icons/pdf.png';
 
-const MyButton = (props) => {
+const MyButtonPDF = (props) => {
     return (
         <Button
             href={props.link}
+            download={props.download}
             variant="contained"
             size="small"
             style={{
@@ -13,7 +15,7 @@ const MyButton = (props) => {
                 color: props.color
             }}
         >
-            <img src={PlusImage} 
+            <img src={PDFIcon} 
             className="iconImage"
             alt="icon_button"
             /> {props.text}
@@ -21,4 +23,4 @@ const MyButton = (props) => {
     );
 };
 
-export default MyButton;
+export default MyButtonPDF;

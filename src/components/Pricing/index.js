@@ -15,9 +15,9 @@ class Pricing extends Component {
 
         ],
         linkto:[
-            './recital-info/program-ad',
-            './recital-info/program-ad',
-            './recital-info/program-ad',],
+            './recital-ad/',
+            './recital-ad/',
+            './recital-ad/',],
         delay: [500, 0, 500]
     }
 

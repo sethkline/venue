@@ -1,5 +1,5 @@
 import React from 'react';
-import MyButton from '../utils/MyButton';
+import MyButtonPDF from '../utils/MyButtonPDF';
 import Slide from 'react-reveal/Slide';
 
 
@@ -12,11 +12,12 @@ const Spreadsheet = ()  => {
         <div className="highlight_description">
        <p> Find out what recital your child is in with this spreadsheet. </p>
 
-      <MyButton 
+      <MyButtonPDF 
           text="Recital Spreadsheet"
           bck="#a7223a"
           color="#fff"
-          link="../../resources/pdfs/Spreadsheet2019.pdf"
+          link="../wp-content/uploads/2019/01/Spreadsheet2019.pdf"
+          download="Recital Spreadsheet"
       />
 
         </div>
