@@ -26,8 +26,8 @@ Three runners up will be chosen to receive prizes (one in each age group: 3-7 ye
         text="Download Cover Design Contest Entry"
         bck="#a7223a"
         color="#fff"
-        link="../../resources/pdfs/CoverDesign.pdf"
-        download="newfilename"
+        link="../wp-content/uploads/2019/01/CoverDesign.pdf"
+        download="CoverDesignContest"
     />
 <div className="discount_description">
     <h3>Deadline for entry is March 4, 2019</h3>
